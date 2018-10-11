@@ -1,0 +1,33 @@
+body {
+	font-family:Open Sans, Helvetica, sans-serif;
+    font-size:medium;
+    background-color:lightyellow;
+}
+
+
+img {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+.coneixement {
+	background-color: #a9ffa9;
+}
+
+.equis {
+	text-align: center;
+	background-color: #b4f0f0;
+}
+
+.llenguatge {
+	background-color: #d3a6ff;
+}
+
+.academicos {
+	color: blue;
+}
+
+.personales {
+	color: red;
+}
