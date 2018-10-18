@@ -4,73 +4,52 @@
 		<meta charset="utf-8">
 		<meta name="author" content="José Manuel Lomero" />
 		<title>Esquema de página</title>
-		<link rel="stylesheet" type="text/css" href="style1.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style1.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	</head>
-
-	<body>
-		<div id="header" class="jumbotron text-center">
-			<img src="mega_logo.png">
-			<h1>José Manuel Lomero Oro</h1>
-		</div>
-		<div class="container-fluid">
-			<div id="Datos" class="row">
-				<div class="academicos col-6 text-center">
-					<h2>Datos Personales</h2>
-					<ul>
-						<li>23 años</li>
-						<li>Actor de doblaje</li>
-						<li>Programador principiante</li>
-					</ul>
-				</div>
-
-				<div class="personales col-6 text-center">
-					<h2>Datos Académicos</h2>
-					<ol>
-						<li>Bachillerato humanístico</li>
-						<li>Teatro y doblaje</li>
-						<li>Japonés</li>
-						<li>Biblioteconomia</li>
-						<li>Diseño Aplicaciones Web</li>
-					</ol>
+		</head>
+		
+		<body>
+			<br>
+		
+			<div class="container">
+				<h2>Toggleable Tabs</h2>
+				<br>
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+					</li>
+				</ul>
+		
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div id="home" class="container tab-pane active"><br>
+						<h3>HOME</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua.</p>
+					</div>
+					<div id="menu1" class="container tab-pane fade"><br>
+						<h3>Menu 1</h3>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<div id="menu2" class="container tab-pane fade"><br>
+						<h3>Menu 2</h3>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+							aperiam.</p>
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="Conocimientos col-8 text-center">
-			<table class="table table-bordered">
-				<tr>
-					<thead>
-						<td></td>
-						<td class="coneixement">Alt</td>
-						<td class="coneixement">Mitjà</td>
-						<td class="coneixement">Baix</td>
-					</thead>
-				</tr>
-
-				<tr>
-					<td class="llenguatge">Java</td>
-					<td class="equis"></td>
-					<td class="equis">X</td>
-					<td class="equis"></td>
-				</tr>
-
-				<tr>
-					<td class="llenguatge">NodeJS</td>
-					<td class="equis"></td>
-					<td class="equis"></td>
-					<td class="equis">X</td>
-				</tr>
-
-				<tr>
-					<td class="llenguatge">CSS</td>
-					<td class="equis">X</td>
-					<td class="equis"></td>
-					<td class="equis"></td>
-				</tr>	
-			</table>
-		</div>
 		
-	</body>
-</html>
+		</body>
+		
+		</html>

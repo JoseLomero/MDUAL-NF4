@@ -1,0 +1,70 @@
+<div id="header" class="jumbotron text-center">
+			<img src="mega_logo.png">
+			<h1>José Manuel Lomero Oro</h1>
+		</div>
+
+		<div class="container-fluid">
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="nav-item"><a href="#">Home</a></li>
+				<li class="nav-item"><a href="#">Sobre Mi</a></li>
+				<li class="nav-item"><a href="#">Portfolio</a></li>
+				<li class="nav-item"><a href="#">Servicios</a></li>
+			</ul>
+			
+			<div id="Datos" class="row">
+				<div class="academicos col-6 text-center">
+					<h2>Datos Personales</h2>
+					<ul>
+						<li>23 años</li>
+						<li>Actor de doblaje</li>
+						<li>Programador principiante</li>
+					</ul>
+				</div>
+
+				<div class="personales col-6 text-center">
+					<h2>Datos Académicos</h2>
+					<ol>
+						<li>Bachillerato humanístico</li>
+						<li>Teatro y doblaje</li>
+						<li>Japonés</li>
+						<li>Biblioteconomia</li>
+						<li>Diseño Aplicaciones Web</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+
+		<div class="Conocimientos col-8 text-center">
+			<table class="table table-bordered">
+				<tr>
+					<thead>
+						<td></td>
+						<td class="coneixement">Alt</td>
+						<td class="coneixement">Mitjà</td>
+						<td class="coneixement">Baix</td>
+					</thead>
+				</tr>
+
+				<tr>
+					<td class="llenguatge">Java</td>
+					<td class="equis"></td>
+					<td class="equis">X</td>
+					<td class="equis"></td>
+				</tr>
+
+				<tr>
+					<td class="llenguatge">NodeJS</td>
+					<td class="equis"></td>
+					<td class="equis"></td>
+					<td class="equis">X</td>
+				</tr>
+
+				<tr>
+					<td class="llenguatge">CSS</td>
+					<td class="equis">X</td>
+					<td class="equis"></td>
+					<td class="equis"></td>
+				</tr>	
+			</table>
+		</div>
+		
